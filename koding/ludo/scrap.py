@@ -1,3 +1,0 @@
-CONSTANT = "HEI"
-CONSTANT = 2
-print(CONSTANT)
