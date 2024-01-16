@@ -5,11 +5,11 @@ int a = 19;
 int b = 20;
 
 int c = a + b;
-if (c<1)
+if (c < 1)
 {
     Console.WriteLine(c);
 }
 else
 {
-    Console.WriteLine(c+a);
+    Console.WriteLine(c + a);
 }
