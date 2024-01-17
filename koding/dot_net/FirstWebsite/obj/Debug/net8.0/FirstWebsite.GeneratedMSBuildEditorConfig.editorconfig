@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
