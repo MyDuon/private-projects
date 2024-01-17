@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dot_net", "dot_net", "{9B4B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "koding\dot_net\ConsoleApp\ConsoleApp.csproj", "{25D78EAA-853A-40FA-89FA-F59BB016686F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "koding\dot_net\WebApplication\WebApplication.csproj", "{35DD5633-1060-4DCC-9BE9-DAE3E2B168CF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
