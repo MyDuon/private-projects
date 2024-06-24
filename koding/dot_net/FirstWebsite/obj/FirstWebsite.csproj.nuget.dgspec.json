@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj": {}
+    "/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj": {}
   },
   "projects": {
-    "/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj": {
+    "/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj",
+        "projectUniqueName": "/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj",
         "projectName": "FirstWebsite",
-        "projectPath": "/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj",
+        "projectPath": "/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/FirstWebsite.csproj",
         "packagesPath": "/Users/myhd/.nuget/packages/",
-        "outputPath": "/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/obj/",
+        "outputPath": "/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/myhd/.nuget/NuGet/NuGet.Config"

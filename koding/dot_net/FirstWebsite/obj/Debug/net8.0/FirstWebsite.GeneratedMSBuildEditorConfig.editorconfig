@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstWebsite
 build_property.RootNamespace = FirstWebsite
-build_property.ProjectDir = /Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/
+build_property.ProjectDir = /Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite
+build_property.MSBuildProjectDirectory = /Users/myhd/github/private-projects/koding/dot_net/FirstWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/About.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Contact.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Error.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Index.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Privacy.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/_ViewImports.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/_ViewStart.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/myhd/Documents/private-projects/koding/dot_net/FirstWebsite/Pages/Shared/_Layout.cshtml]
+[/Users/myhd/github/private-projects/koding/dot_net/FirstWebsite/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xbkalthcu9
