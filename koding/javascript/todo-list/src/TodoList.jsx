@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function TodoList() {
   const [task, setTask] = useState("");
-  const [todoList, setTodolist] = useState([]);
+  const [todoList, setTodolist] = useState(["Eat Breakfast", "Take a shower"]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -12,32 +12,43 @@ function TodoList() {
   };
 
   function AddTask() {
-    setTodolist((t) => [...t, task]);
-    setTask("");
-    console.log(todoList);
+    if (task.trim() !== "") {
+      setTodolist((t) => [...t, task]);
+      setTask("");
+      console.log(todoList);
+    }
   }
 
   function RemoveTask() {}
 
   return (
-    <div>
-      <form className="todoTask" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          className="todo-input"
-          placeholder="What is the task today?"
-          onChange={(e) => setTask(e.target.value)}
-        />
-        <button type="submit" className="todo-button">
-          Add
-        </button>
-      </form>
-      <div className="todoList">
-        <ul>
-          {todoList.map((todoListId) => (
-            <li key={todoListId}>{todoListId}</li>
-          ))}
-        </ul>
+    <div className="to-do-list">
+      <h1>To-Do-List</h1>
+      <div>
+        <form className="todoTask" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            className="todo-input"
+            placeholder="What is the task today?"
+            onChange={(e) => setTask(e.target.value)}
+          />
+          <button type="submit" className="add-button">
+            Add
+          </button>
+
+          <div className="todoList">
+            <ul>
+              {todoList.map((task, index) => (
+                <li className="items" key={index}>
+                  <span className="text">{task}</span>
+                  <button className="delete-button" onClick={RemoveTask}>
+                    Delete
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </form>
       </div>
     </div>
   );
