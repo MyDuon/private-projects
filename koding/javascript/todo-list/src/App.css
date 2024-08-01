@@ -1,7 +1,7 @@
 .to-do-list {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 5px;
 }
 h1 {
   font-size: 4rem;
@@ -27,7 +27,7 @@ button {
 .delete-button {
   background-color: red;
   width: 100px;
-  height: 100px;
+  height: 50px;
 }
 .delete-button:hover {
   background-color: rgb(154, 1, 1);
@@ -37,20 +37,27 @@ input[type="text"] {
   padding: 10px;
   border: 2px solid black;
   border-radius: 5px;
-  color: gray;
+  color: rgb(11, 11, 11);
+}
+ul {
+  padding-top: 30px;
+  display: table;
+  margin: 0 auto;
+  list-style-type: none;
 }
 li {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: bold;
-  padding: 15px;
+  padding: 2px;
   background-color: hsl(0, 0%, 97%);
   margin-bottom: 10px;
   border: 3px solid hsla(0, 0%, 85%, 0.75);
   border-radius: 5px;
+  width: 500px;
   display: flex;
   align-items: center;
 }
-.text {
+span {
   flex: 1;
 }
 .delete-button,

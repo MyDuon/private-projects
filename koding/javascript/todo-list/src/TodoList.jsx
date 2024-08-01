@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function TodoList() {
   const [task, setTask] = useState("");
-  const [todoList, setTodolist] = useState(["Eat Breakfast", "Take a shower"]);
+  const [todoList, setTodolist] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
