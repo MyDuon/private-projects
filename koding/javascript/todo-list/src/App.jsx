@@ -1,13 +1,13 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import TodoForm from './TodoForm.jsx'
+import TodoList from './TodoList.jsx'
 
 
 function App() {
     return (
         <div>
             <Header/>
-            <TodoForm/>
+            <TodoList/>
             <Footer/>
         </div>
     )
