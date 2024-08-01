@@ -6,7 +6,6 @@ function TodoList() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(task);
     e.target.reset();
     AddTask();
   };
@@ -15,12 +14,10 @@ function TodoList() {
     if (task.trim() !== "") {
       setTodolist((t) => [...t, task]);
       setTask("");
-      console.log(todoList);
     }
   }
 
   function RemoveTask(index) {
-    console.log("går inne her");
     const updatedTasks = todoList.filter((_, i) => i !== index);
     setTodolist(updatedTasks);
   }
