@@ -19,7 +19,11 @@ function TodoList() {
     }
   }
 
-  function RemoveTask() {}
+  function RemoveTask(index) {
+    console.log("går inne her");
+    const updatedTasks = todoList.filter((_, i) => i !== index);
+    setTodolist(updatedTasks);
+  }
 
   return (
     <div className="to-do-list">
@@ -39,9 +43,12 @@ function TodoList() {
           <div className="todoList">
             <ul>
               {todoList.map((task, index) => (
-                <li className="items" key={index}>
+                <li key={index}>
                   <span className="text">{task}</span>
-                  <button className="delete-button" onClick={RemoveTask}>
+                  <button
+                    className="delete-button"
+                    onClick={() => RemoveTask(index)}
+                  >
                     Delete
                   </button>
                 </li>
