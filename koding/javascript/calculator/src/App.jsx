@@ -1,18 +1,27 @@
 import "./App.css";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
+import { useState } from "react";
 
 function App() {
+  const [number, SetNumber] = useState(0);
+
+  const [number2, SetNumber2] = useState(0);
+
   return (
     <>
       <div className="calculator">
-        <div className="screen">128940</div>
+        <div className="screen">{number}</div>
         <div className="buttons">
           <Stack className="first-row" direction="row" spacing={1}>
-            <Button variant="contained">7</Button>
+            <Button variant="contained" onClick={() => console.log("TEST!")}>
+              7
+            </Button>
             <Button variant="contained">8</Button>
             <Button variant="contained">9</Button>
-            <Button variant="contained">+</Button>
+            <Button variant="contained" onClick={() => SetNumber(number + 1)}>
+              +
+            </Button>
             <Button variant="contained">-</Button>
           </Stack>
           <br />

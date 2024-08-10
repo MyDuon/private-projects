@@ -42,7 +42,10 @@
 }
 .buttons {
   border: 2px solid black;
+  padding: 10px;
 }
 .screen {
   border: 2px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
