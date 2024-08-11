@@ -23,7 +23,19 @@ function App() {
   };
 
   const calculate = (calculation) => {
-    console.log(eval(calculation));
+    //TODO: have to check if calculation end with operation
+    if (
+      calculation.endsWith("+") ||
+      calculation.endsWith("-") ||
+      calculation.endsWith("*") ||
+      calculation.endsWith("/")
+    ) {
+      var test = calculation.slice(0, -1);
+      console.log(test);
+      tmp = eval(test);
+      setCalc(tmp);
+      return;
+    }
     tmp = eval(calculation);
     setCalc(tmp);
   };
