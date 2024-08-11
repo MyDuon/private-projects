@@ -4,7 +4,7 @@ import Stack from "@mui/material/Stack";
 import { useState } from "react";
 
 function App() {
-  const [number, setNumber] = useState(0);
+  const [result, setResult] = useState(0);
   const [calc, setCalc] = useState("0");
 
   const updateCalc = (value) => {
@@ -15,14 +15,18 @@ function App() {
     ) {
       return;
     } else if (calc === "0" && numbers.includes(value)) {
-      //   setCalc(slice eval(calc + value));
+      console.log("calc: " + calc);
+      console.log("value: " + value);
+      const test = eval(value);
+      console.log(test);
+      setCalc(test);
+      return;
     }
     setCalc(calc + value);
   };
 
   const calculate = () => {
-    const result = eval(calc);
-    console.log(result);
+    console.log(calc);
   };
 
   const operation = ["+", "-", "*", "/", "."];
