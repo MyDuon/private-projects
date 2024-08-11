@@ -6,27 +6,26 @@ import { useState } from "react";
 function App() {
   const [result, setResult] = useState(0);
   const [calc, setCalc] = useState("0");
+  var tmp = 0;
 
   const updateCalc = (value) => {
     if (
       (value === "0" && calc === "0") ||
-      (operation.includes(value) && calc === "0") ||
-      (operation.includes(value) && operation.includes(calc.slice(-1)))
+      (operation.includes(value) && calc === "0")
+      //   (operation.includes(value) && operation.includes(calc.slice(-1)))
     ) {
       return;
     } else if (calc === "0" && numbers.includes(value)) {
-      console.log("calc: " + calc);
-      console.log("value: " + value);
-      const test = eval(value);
-      console.log(test);
-      setCalc(test);
+      setCalc(eval(value));
       return;
     }
     setCalc(calc + value);
   };
 
-  const calculate = () => {
-    console.log(calc);
+  const calculate = (calculation) => {
+    console.log(eval(calculation));
+    tmp = eval(calculation);
+    setCalc(tmp);
   };
 
   const operation = ["+", "-", "*", "/", "."];
@@ -86,7 +85,7 @@ function App() {
             <Button variant="contained" onClick={() => updateCalc("3")}>
               3
             </Button>
-            <Button variant="contained" onClick={() => calculate()}>
+            <Button variant="contained" onClick={() => calculate(calc)}>
               =
             </Button>
             <Button className="clear-entry" variant="contained">
