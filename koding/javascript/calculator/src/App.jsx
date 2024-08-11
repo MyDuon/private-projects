@@ -7,12 +7,13 @@ function App() {
   const [result, setResult] = useState(0);
   const [calc, setCalc] = useState("0");
   var tmp = 0;
+  const operation = ["+", "-", "*", "/", "."];
+  const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
   const updateCalc = (value) => {
     if (
       (value === "0" && calc === "0") ||
       (operation.includes(value) && calc === "0")
-      //   (operation.includes(value) && operation.includes(calc.slice(-1)))
     ) {
       return;
     } else if (calc === "0" && numbers.includes(value)) {
@@ -23,7 +24,6 @@ function App() {
   };
 
   const calculate = (calculation) => {
-    //TODO: have to check if calculation end with operation
     if (
       calculation.endsWith("+") ||
       calculation.endsWith("-") ||
@@ -43,9 +43,6 @@ function App() {
   const reset = () => {
     setCalc("0");
   };
-
-  const operation = ["+", "-", "*", "/", "."];
-  const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
   return (
     <>
