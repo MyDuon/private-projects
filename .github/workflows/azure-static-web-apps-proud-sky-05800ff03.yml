@@ -44,3 +44,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PROUD_SKY_05800FF03 }}
           action: "close"
+          app_location: "./koding/javascript/porfolio/build"
