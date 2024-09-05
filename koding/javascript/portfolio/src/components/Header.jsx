@@ -1,9 +1,11 @@
+import "./Header.css";
+
 function Header() {
   return (
     <>
       <header className="header">
         <a href="" className="logo">
-          Ola Nordmann
+          My Hoang Duong
         </a>
         <nav className="nav">
           <a href="/">About</a>
