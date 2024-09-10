@@ -15,6 +15,9 @@ Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [ludo(uferdig)](koding/python/ludo)
 - [space_invaders(uferdig)](koding/python/space_invaders)
 
+## Kotlin:
+- test
+
 Fremtidige ideer:
 - Gitarsangbok
 - blog eller SoMe app
