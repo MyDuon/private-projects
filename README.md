@@ -8,3 +8,11 @@ Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [Kalkulator](koding/javascript/calculator)
 - [To do list](koding/javascript/todo-list)
 - [tic tac toe](koding/javascript/tic-tac-toe)
+
+## Python:
+- test
+
+Fremtidige ideer:
+- Gitarsangbok
+- blog eller SoMe app
+- 
