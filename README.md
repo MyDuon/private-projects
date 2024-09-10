@@ -10,10 +10,10 @@ Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [tic tac toe](koding/javascript/tic-tac-toe)
 
 ## Python:
-- [game(uferdig)](koding/python/game)
-- [hjemmeside(uferdig)](koding/python/hjemmeside)
-- [ludo(uferdig)](koding/python/ludo)
-- [space_invaders(uferdig)](koding/python/space_invaders)
+- [game (uferdig)](koding/python/game)
+- [hjemmeside (uferdig)](koding/python/hjemmeside)
+- [ludo (uferdig)](koding/python/ludo)
+- [space_invaders (uferdig)](koding/python/space_invaders)
 
 ## Kotlin:
 - test
