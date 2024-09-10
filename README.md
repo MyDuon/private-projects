@@ -5,6 +5,7 @@ Nåværende prosjekt: Portfolio
 
 Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 ## Kalkulator
+[Contribution guidelines for this project](koding/javascript/kalkulator)
 ## To do list
 ## 3 paa rad
 ## Portfolio
