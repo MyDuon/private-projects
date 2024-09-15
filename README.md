@@ -5,7 +5,7 @@ Nåværende prosjekt: Portfolio, Movie App
 
 Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [Portfolio (aktiv)](koding/javascript/portfolio)
-- [Movie App] (aktiv)(koding/javascript/movie-app)
+- [Movie App (aktiv)](koding/javascript/movie-app)
 - [Kalkulator](koding/javascript/calculator)
 - [To do list](koding/javascript/todo-list)
 - [tic tac toe](koding/javascript/tic-tac-toe)
@@ -17,7 +17,7 @@ Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [space_invaders (uferdig)](koding/python/space_invaders)
 
 ## Kotlin:
-- test
+- [Kotlin emne](https://github.com/MyDuon/IN2000)
 
 Fremtidige ideer:
 - Gitarsangbok
