@@ -1,7 +1,13 @@
+import "./Movie.css";
 import React, { useState, useEffect } from "react";
 
 function Movie() {
   const [movieList, setMovieList] = useState([]);
+
+  const handleOnclick = (title) => {
+    console.log(title);
+    // window.open("/");
+  };
 
   useEffect(() => {
     fetch("https://api.themoviedb.org/3/movie/top_rated", {
@@ -19,15 +25,19 @@ function Movie() {
 
   return (
     <>
-      <div>
-        {movieList.map((movie) => (
-          <p key={movie.id}>{movie.title}</p>
-          //   <img
-          //     onClick={console.log(1)}
-          //     key={movie.id}
-          //     src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-          //   />
-        ))}
+      <div className="content-wrapper">
+        <h2>Top rated movies</h2>
+        <div className="movie-wrapper">
+          {movieList.map((movie) => (
+            <div className="movie-child" key={movie.id}>
+              <img
+                onClick={() => handleOnclick(movie.id)}
+                key={movie.id}
+                src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
