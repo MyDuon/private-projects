@@ -1,0 +1,38 @@
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 300;
+}
+.nav a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.nav a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+.nav a:hover::before {
+  width: 100%;
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 function Movie() {
   const [movieList, setMovieList] = useState([]);
 
@@ -20,10 +21,12 @@ function Movie() {
     <>
       <div>
         {movieList.map((movie) => (
-          <img
-            key={movie.id}
-            src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-          />
+          <p key={movie.id}>{movie.title}</p>
+          //   <img
+          //     onClick={console.log(1)}
+          //     key={movie.id}
+          //     src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+          //   />
         ))}
       </div>
     </>
