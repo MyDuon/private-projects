@@ -1,15 +1,17 @@
 import "./Hero.css";
-
+import picture from "../pictures/hero_picture.jpg";
 function Hero() {
   return (
     <>
-      <div className="hero">
-        <h1>Hero Section</h1>
-        <p>
-          Velkommen til min portfolio. Bla ned for å se på min erfaring,
-          projekter og kontaktinformasjon
-        </p>
+      <div className="hero-wrapper">
+        <div className="desciption">
+          <p>asdf</p>
+        </div>
+        <div className="hero-picture">
+          <p>jkl</p>
+        </div>
       </div>
+      <img src={picture} alt="picture of me" />
     </>
   );
 }

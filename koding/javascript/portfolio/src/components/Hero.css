@@ -1,3 +1,11 @@
-.hero {
+.hero-wrapper {
+  display: flex;
   position: relative;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+.hero-wrapper div {
+  flex: 1;
 }
