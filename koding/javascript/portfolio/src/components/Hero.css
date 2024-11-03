@@ -1,11 +1,21 @@
 .hero-wrapper {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 img {
-  width: 500px;
-  height: 500px;
+  width: 302.4px;
+  height: 403.2px;
 }
 .hero-wrapper div {
   flex: 1;
+  background-color: pink;
+}
+.description,
+.hero-picture {
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }

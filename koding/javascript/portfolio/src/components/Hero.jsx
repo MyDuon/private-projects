@@ -4,14 +4,13 @@ function Hero() {
   return (
     <>
       <div className="hero-wrapper">
-        <div className="desciption">
-          <p>asdf</p>
+        <div className="description">
+          Hei, Jeg er My Hoang Duong. Fullstack utvikler
         </div>
         <div className="hero-picture">
-          <p>jkl</p>
+          <img src={picture} alt="picture of me" />
         </div>
       </div>
-      <img src={picture} alt="picture of me" />
     </>
   );
 }
