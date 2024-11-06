@@ -1,10 +1,31 @@
+.experience-wrapper {
+  background-color: #608bc1;
+  margin-top: 10rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
 .work {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.work div {
+.experience {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.uio-wrapper,
+.munch-wrapper {
+  max-width: 30%;
+  border: 1px solid;
+  margin: 1rem;
+  border-radius: 10%;
   text-align: center;
   flex: 1;
 }
-h1 {
-  text-align: center;
+h2 {
+  margin: 1rem 1rem 0.5rem;
+}
+.test {
+  margin: 1rem 6rem 1rem;
 }

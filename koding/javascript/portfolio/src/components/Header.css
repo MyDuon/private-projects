@@ -3,14 +3,14 @@ header {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: seagreen;
+  background: #133e87;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
 a {
-  color: aliceblue;
+  color: white;
   text-decoration: none;
 }
 .logo {

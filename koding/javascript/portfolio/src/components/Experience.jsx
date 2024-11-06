@@ -4,17 +4,24 @@ function Experience() {
   return (
     <>
       <div className="experience-wrapper">
-        <h1>Erfaring</h1>
+        <h1 className="experience">Erfaring</h1>
         <div className="work">
-          <div>
+          <div className="uio-wrapper">
             <h2>Universitet i Oslo</h2>
             <h3>Gruppelærer</h3>
-            <p>- Retter obliger</p>
+            <div className="test">
+              Gjennomføre seminartimer med studenter, rettet obligatoriske
+              oppgaver og ga tilbakemelding. Hadde ukentlig møter med faglærer
+              og andre gruppelærere.
+            </div>
           </div>
-          <div>
+          <div className="munch-wrapper">
             <h2>Munch</h2>
             <h3>Vertskap</h3>
-            <p>- selger</p>
+            <div>
+              - selgerasdfsdfasd asdf asdf asdf asdf asdf asdf asf asdf asdf
+              asfd{" "}
+            </div>
           </div>
         </div>
         <h1>Hobby</h1>
