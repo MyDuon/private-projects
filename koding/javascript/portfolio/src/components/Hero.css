@@ -14,7 +14,6 @@
 }
 .right-hero {
   position: relative;
-<<<<<<< HEAD
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -32,17 +31,13 @@ img {
   text-align: center;
   align-items: center;
   align-content: center;
-=======
   width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 img {
-  /* max-width: calc(3024px / 7);
-  max-height: calc(4032px / 7); */
   width: 100%;
   height: 100%;
   border-radius: 30%;
->>>>>>> 81f9d39 (testing)
 }
