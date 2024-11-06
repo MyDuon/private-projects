@@ -22,10 +22,13 @@ function Experience() {
           <p>ASD</p>
         </div>
       </div>
+<<<<<<< HEAD
       <p>
         Start med erfaring også sideprosjekter. Inneholder egne projecter og
         eller relevant arbeidserfaring. F.eks. Gruppelærer
       </p>
+=======
+>>>>>>> 81f9d39 (testing)
     </>
   );
 }
