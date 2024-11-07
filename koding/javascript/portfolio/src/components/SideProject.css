@@ -1,0 +1,16 @@
+.side-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.side-project > div {
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+.project-header {
+  margin-top: 10rem;
+  text-align: center;
+}
