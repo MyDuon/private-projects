@@ -1,7 +1,7 @@
 # private-projects
 Dette er et repo for egne prosjekter utenfor skole.
 
-Aktive prosjekter: [Portfolio](koding/javascript/portfolio), [(azure-link)](https://victorious-tree-0a89db703.5.azurestaticapps.net), [Movie App](koding/javascript/movie-app)
+Aktive prosjekter: [Portfolio](koding/javascript/portfolio) [(azure-link)](https://victorious-tree-0a89db703.5.azurestaticapps.net), [Movie App](koding/javascript/movie-app)
 
 Nå for tiden driver jeg med React og dette er prosjektene mine så langt:
 - [Portfolio (aktiv)](koding/javascript/portfolio)
