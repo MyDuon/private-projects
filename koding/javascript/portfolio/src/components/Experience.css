@@ -22,9 +22,11 @@
   border-radius: 10%;
   text-align: center;
   background-color: #137887;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin: 1rem;
 }
 h2 {
   margin: 1rem 1rem 0.5rem;
+}
+.margin {
+  margin-top: 1rem;
 }
