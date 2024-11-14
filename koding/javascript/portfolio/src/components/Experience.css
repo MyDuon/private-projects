@@ -28,5 +28,5 @@ h2 {
   margin: 1rem 1rem 0.5rem;
 }
 .margin {
-  margin-top: 1rem;
+  margin: 2rem; /* storre margin forer til at uio teksten blir paa 3 linjer */
 }
