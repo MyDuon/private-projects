@@ -1,5 +1,6 @@
 .side-project-wrapper {
   background-color: aqua;
+  margin: 1rem;
 }
 .side-project {
   display: flex;
