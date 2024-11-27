@@ -1,9 +1,9 @@
-import "./App.css";
+import "./Calculator.css";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { useState } from "react";
 
-function App() {
+function Calculator() {
   const [calc, setCalc] = useState("0");
   var tmp = 0;
   const operation = ["+", "-", "*", "/", "."];
@@ -114,4 +114,4 @@ function App() {
   );
 }
 
-export default App;
+export default Calculator;
