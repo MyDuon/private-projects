@@ -2,21 +2,17 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import "./index.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import SideProject from "./components/SideProject";
+import MainPage from "./pages/MainPage";
+import Calculator_page from "./pages/Calculator-page";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Experience />
-      <SideProject />
-      <Contact />
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path="/calculator" element={<Calculator_page />} />
+      </Routes>
     </>
   );
 }
