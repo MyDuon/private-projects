@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "./Card.css";
+import { Link } from "react-router";
 
 export default function BasicCard({ name }) {
   return (
@@ -27,7 +28,12 @@ export default function BasicCard({ name }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">
+          <Link className="link" to="/calculator">
+            Calculator
+          </Link>
+          ;
+        </Button>
       </CardActions>
     </Card>
   );
