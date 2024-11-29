@@ -21,31 +21,26 @@ export default function BasicGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid size={4}>
+        <Grid size={6}>
           <BasicCard name={"Streaming"} link="/streaming">
             streaming
           </BasicCard>
         </Grid>
-        <Grid size={4}>
-          <BasicCard name={"Calculator"} link="/calculator" url={calculator}>
+        <Grid size={6}>
+          <BasicCard name={"Calculator"} link="/calculator">
+            {/*url={calculator}*/}
             calculator
           </BasicCard>
         </Grid>
-        <Grid size={4}>
+        <Grid size={6}>
           <BasicCard name={"Tic Tac Toe"} link="/tictactoe">
             tic tac toe
           </BasicCard>
         </Grid>
-        <Grid size={4}>
+        <Grid size={6}>
           <BasicCard name={"Todo-list"} link="/todolist">
             todo list
           </BasicCard>
-        </Grid>
-        <Grid size={4}>
-          <BasicCard name={"Test"}>test</BasicCard>
-        </Grid>
-        <Grid size={4}>
-          <BasicCard name={"Test2"}>test2</BasicCard>
         </Grid>
       </Grid>
     </Box>

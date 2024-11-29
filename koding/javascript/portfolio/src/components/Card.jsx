@@ -11,7 +11,7 @@ import "./Card.css";
 export default function BasicCard({ name, link, url }) {
   return (
     <Card className="padding" sx={{ minWidth: 275 }}>
-      <img src={url} alt="test" />
+      {/* <img src={url} alt="test" /> */}
       <CardContent>
         <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
           Word of the Day
