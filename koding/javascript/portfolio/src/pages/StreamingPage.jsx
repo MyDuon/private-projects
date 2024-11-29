@@ -1,12 +1,11 @@
 import Header from "../components/Header";
 
-function Calculator_page() {
+function StreamingPage() {
   return (
     <>
       <Header />
-      <h1>Calculator</h1>
+      <h1>Streaming</h1>
     </>
   );
 }
-
-export default Calculator_page;
+export default StreamingPage;

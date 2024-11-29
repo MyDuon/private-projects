@@ -5,12 +5,13 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import "./Card.css";
 import { Link } from "react-router";
+import "./Card.css";
 
-export default function BasicCard({ name }) {
+export default function BasicCard({ name, link, url }) {
   return (
     <Card className="padding" sx={{ minWidth: 275 }}>
+      <img src={url} alt="test" />
       <CardContent>
         <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
           Word of the Day
@@ -29,8 +30,8 @@ export default function BasicCard({ name }) {
       </CardContent>
       <CardActions>
         <Button size="small">
-          <Link className="link" to="/calculator">
-            Calculator
+          <Link className="link" to={link}>
+            {name}
           </Link>
           ;
         </Button>

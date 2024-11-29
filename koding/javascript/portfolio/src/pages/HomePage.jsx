@@ -5,7 +5,7 @@ import Experience from "../components/Experience";
 import SideProject from "../components/SideProject";
 import "../index.css";
 
-function MainPage() {
+function HomePage() {
   return (
     <>
       <Header />
@@ -16,4 +16,4 @@ function MainPage() {
     </>
   );
 }
-export default MainPage;
+export default HomePage;

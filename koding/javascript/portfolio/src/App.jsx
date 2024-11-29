@@ -2,17 +2,27 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import MainPage from "./pages/MainPage";
-import Calculator_page from "./pages/Calculator-page";
-import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import CalculatorPage from "./pages/CalculatorPage";
+import StreamingPage from "./pages/StreamingPage";
+import TicTacToePage from "./pages/TicTacToePage";
+import TodoListPage from "./pages/TodoListPage";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route index element={<MainPage />} />
-        <Route path="/calculator" element={<Calculator_page />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage />} />{" "}
+          {/*Kan legge til errorelement attributt senere */}
+          <Route path="/calculator" element={<CalculatorPage />} />
+          <Route path="/streaming" element={<StreamingPage />} />
+          <Route path="/tictactoe" element={<TicTacToePage />} />
+          <Route path="/todolist" element={<TodoListPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

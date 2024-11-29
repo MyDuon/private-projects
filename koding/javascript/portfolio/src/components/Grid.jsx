@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid2";
 import BasicCard from "./Card";
+import calculator from "../resources/calculator.png";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -21,16 +22,24 @@ export default function BasicGrid() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid size={4}>
-          <BasicCard name={"Streaming"}>streaming</BasicCard>
+          <BasicCard name={"Streaming"} link="/streaming">
+            streaming
+          </BasicCard>
         </Grid>
         <Grid size={4}>
-          <BasicCard name={"Calculator"}>calculator</BasicCard>
+          <BasicCard name={"Calculator"} link="/calculator" url={calculator}>
+            calculator
+          </BasicCard>
         </Grid>
         <Grid size={4}>
-          <BasicCard name={"Tic Tac Toe"}>tic tac toe</BasicCard>
+          <BasicCard name={"Tic Tac Toe"} link="/tictactoe">
+            tic tac toe
+          </BasicCard>
         </Grid>
         <Grid size={4}>
-          <BasicCard name={"Todo-list"}>todo list</BasicCard>
+          <BasicCard name={"Todo-list"} link="/todolist">
+            todo list
+          </BasicCard>
         </Grid>
         <Grid size={4}>
           <BasicCard name={"Test"}>test</BasicCard>

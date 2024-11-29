@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           Lille My
         </a>
         <nav className="nav">
