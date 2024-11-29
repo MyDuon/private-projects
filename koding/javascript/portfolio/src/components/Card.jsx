@@ -33,7 +33,6 @@ export default function BasicCard({ name, link, url }) {
           <Link className="link" to={link}>
             {name}
           </Link>
-          ;
         </Button>
       </CardActions>
     </Card>
