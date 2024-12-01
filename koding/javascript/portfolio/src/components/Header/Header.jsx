@@ -1,13 +1,14 @@
 import "./Header.css";
-import resume from "../resources/CV_norsk_frontend.pdf";
+import { Link } from "react-router";
+import resume from "../../resources/CV_norsk_frontend.pdf";
 
 function Header() {
   return (
     <>
       <header className="header">
-        <a href="/" className="logo">
+        <Link className="link" to="/">
           Lille My
-        </a>
+        </Link>
         <nav className="nav">
           <a href="/">About</a>
           <a href="/">Projects</a>

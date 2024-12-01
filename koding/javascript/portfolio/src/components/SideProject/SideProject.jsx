@@ -1,4 +1,4 @@
-import BasicGrid from "./Grid";
+import BasicGrid from "../Grid";
 import "./SideProject.css";
 function SideProject() {
   return (

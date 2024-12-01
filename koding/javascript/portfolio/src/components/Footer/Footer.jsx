@@ -1,4 +1,4 @@
-import "../components/Footer.css";
+import "./Footer.css";
 function Footer() {
   return (
     <>
@@ -6,7 +6,7 @@ function Footer() {
         <h1>Footer</h1>
         <p>
           Siden er opprettet ved bruk av Material UI og React Router.
-          Boilerplate av Vite
+          Boilerplate av Vite. Dette er en MVP
         </p>
         <br />
         <br />

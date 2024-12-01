@@ -1,6 +1,6 @@
 import "./Experience.css";
-import MunchLogo from "./MunchLogo";
-import UioLogo from "./UioLogo";
+import MunchLogo from "../MunchLogo/MunchLogo";
+import UioLogo from "../UioLogo/UioLogo";
 
 function Experience() {
   return (
