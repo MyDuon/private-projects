@@ -5,7 +5,7 @@ import resume from "../../resources/CV_norsk_frontend.pdf";
 function Header() {
   return (
     <>
-      <header className="header">
+      <header className="header-wrapper">
         <Link className="link" to="/">
           Lille My
         </Link>

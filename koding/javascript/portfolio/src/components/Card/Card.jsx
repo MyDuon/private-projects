@@ -30,7 +30,7 @@ export default function BasicCard({ name, link, url }) {
       </CardContent>
       <CardActions>
         <Button size="small">
-          <Link className="link" to={link}>
+          <Link className="link1" to={link}>
             {name}
           </Link>
         </Button>

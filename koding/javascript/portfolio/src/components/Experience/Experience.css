@@ -5,15 +5,15 @@
   padding-right: 8rem;
   padding-bottom: 20rem;
 }
+.experience-header {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
 .work {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-.experience {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  text-align: center;
 }
 .uio-wrapper,
 .munch-wrapper {

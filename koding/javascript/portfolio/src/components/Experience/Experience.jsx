@@ -6,7 +6,7 @@ function Experience() {
   return (
     <>
       <div className="experience-wrapper">
-        <h1 className="experience">Erfaring</h1>
+        <h1 className="experience-header">Erfaring</h1>
         <div className="work">
           <div className="uio-wrapper">
             <UioLogo />

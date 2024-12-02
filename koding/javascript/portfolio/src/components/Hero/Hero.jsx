@@ -12,7 +12,7 @@ function Hero() {
           </h3>
         </div>
         <div className="right-hero">
-          <img src={picture} alt="picture of me" />
+          <img className="hero-picture" src={picture} alt="picture of me" />
         </div>
       </div>
     </>
