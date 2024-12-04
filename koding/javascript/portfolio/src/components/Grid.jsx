@@ -27,7 +27,7 @@ export default function BasicGrid() {
           </BasicCard>
         </Grid>
         <Grid size={6}>
-          <BasicCard name={"Calculator"} link="/calculator">
+          <BasicCard name={"Calculator"} link="/calculator" url={calculator}>
             {/*url={calculator}*/}
             calculator
           </BasicCard>

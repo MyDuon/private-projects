@@ -7,34 +7,27 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router";
 import "./Card.css";
+import CardMedia from "@mui/material/CardMedia";
+import CardActionArea from "@mui/material/CardActionArea";
+import picture from "../../resources/calculator.png";
 
-export default function BasicCard({ name, link, url }) {
+export default function BasicCard({ name, link, img }) {
   return (
-    <Card className="padding" sx={{ minWidth: 275 }}>
-      {/* <img src={url} alt="test" /> */}
-      <CardContent>
-        <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="div">
-          {name}
-        </Typography>
-        <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-          adjective
-        </Typography>
-        <Typography variant="body2">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">
-          <Link className="link1" to={link}>
-            {name}
-          </Link>
-        </Button>
-      </CardActions>
-    </Card>
+    <Link className="link1" to={link}>
+      <Card sx={{ maxWidth: 345 }}>
+        <CardActionArea>
+          <CardMedia component="img" height="140" image={img} />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              {name}
+            </Typography>
+            <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              Lizards are a widespread group of squamate reptiles, with over
+              6,000 species, ranging across all continents except Antarctica
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </Link>
   );
 }
