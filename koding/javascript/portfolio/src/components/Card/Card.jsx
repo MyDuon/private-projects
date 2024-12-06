@@ -11,23 +11,19 @@ import CardMedia from "@mui/material/CardMedia";
 import CardActionArea from "@mui/material/CardActionArea";
 import picture from "../../resources/calculator.png";
 
-export default function BasicCard({ name, link, img }) {
+export default function BasicCard({ name, link, url }) {
   return (
-    <Link className="link1" to={link}>
-      <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }}>
+      <Link className="link1" to={link}>
         <CardActionArea>
-          <CardMedia component="img" height="140" image={img} />
+          <CardMedia component="img" height="140" image={url} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {name}
             </Typography>
-            <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
-            </Typography>
           </CardContent>
         </CardActionArea>
-      </Card>
-    </Link>
+      </Link>
+    </Card>
   );
 }
