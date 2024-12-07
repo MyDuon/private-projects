@@ -1,0 +1,11 @@
+.calculator-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.screen,
+.buttons {
+  border: solid 1px black;
+  text-align: center;
+}
