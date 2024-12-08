@@ -46,7 +46,8 @@ function CalculatorPage() {
   return (
     <>
       <Header />
-      <h1>Calculator</h1>
+      <br />
+      <h1 className="calculator-header">Calculator</h1>
       <div className="calculator-wrapper">
         <div className="test">
           <div className="screen">{calc}</div>

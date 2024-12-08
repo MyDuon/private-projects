@@ -1,3 +1,6 @@
+.calculator-header {
+  text-align: center;
+}
 .calculator-wrapper {
   display: flex;
   align-items: center;

@@ -5,6 +5,9 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid2";
 import BasicCard from "./Card/Card";
 import calculator from "../resources/calculator.png";
+import movie from "../resources/movie-app.png";
+import tictactoe from "../resources/tic-tac-toe.png";
+import todoList from "../resources/todo-list.png";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -22,7 +25,7 @@ export default function BasicGrid() {
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid size={6}>
-          <BasicCard name={"Streaming"} link="/streaming">
+          <BasicCard name={"Streaming"} link="/streaming" url={movie}>
             streaming
           </BasicCard>
         </Grid>
@@ -33,12 +36,12 @@ export default function BasicGrid() {
           </BasicCard>
         </Grid>
         <Grid size={6}>
-          <BasicCard name={"Tic Tac Toe"} link="/tictactoe">
+          <BasicCard name={"Tic Tac Toe"} link="/tictactoe" url={tictactoe}>
             tic tac toe
           </BasicCard>
         </Grid>
         <Grid size={6}>
-          <BasicCard name={"Todo-list"} link="/todolist">
+          <BasicCard name={"Todo-list"} link="/todolist" url={todoList}>
             todo list
           </BasicCard>
         </Grid>
