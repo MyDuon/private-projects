@@ -47,66 +47,72 @@ function App() {
     <>
       <div className="calculator-wrapper">
         <div className="test">
-          <div className="screen">{calc}</div>
+          <div className="screen">
+            <h1>{calc}</h1>
+          </div>
           <div className="buttons">
             <Stack className="first-row" direction="row" spacing={1}>
               <Button variant="contained" onClick={() => updateCalc("7")}>
-                7
+                <h1 className="test">7</h1>
               </Button>
-              <Button variant="contained" onClick={() => updateCalc("8")}>
-                8
+              <Button
+                className="test"
+                variant="contained"
+                onClick={() => updateCalc("8")}
+              >
+                <h1>8</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("9")}>
-                9
+                <h1>9</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("0")}>
-                0
+                <h1>0</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("+")}>
-                +
+                <h1>+</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("-")}>
-                -
+                <h1>-</h1>
               </Button>
             </Stack>
             <br />
             <Stack className="second-row" direction="row" spacing={1}>
               <Button variant="contained" onClick={() => updateCalc("4")}>
-                4
+                <h1>4</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("5")}>
-                5
+                <h1>5</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("6")}>
-                6
+                <h1>6</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("*")}>
-                *
+                <h1>*</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("/")}>
-                /
+                <h1>/</h1>
               </Button>
             </Stack>
             <br />
             <Stack className="third-row" direction="row" spacing={1}>
               <Button variant="contained" onClick={() => updateCalc("1")}>
-                1
+                <h1>1</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("2")}>
-                2
+                <h1>2</h1>
               </Button>
               <Button variant="contained" onClick={() => updateCalc("3")}>
-                3
+                <h1>3</h1>
               </Button>
               <Button variant="contained" onClick={() => calculate(calc)}>
-                =
+                <h1>=</h1>
               </Button>
               <Button
                 className="clear-entry"
                 onClick={() => reset()}
                 variant="contained"
               >
-                CE
+                <h1>CE</h1>
               </Button>
             </Stack>
           </div>
