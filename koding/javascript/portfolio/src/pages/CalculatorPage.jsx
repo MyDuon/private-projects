@@ -1,6 +1,4 @@
 import Header from "../components/Header/Header";
-import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
 import { useState } from "react";
 import "./CalculatorPage.css";
 
