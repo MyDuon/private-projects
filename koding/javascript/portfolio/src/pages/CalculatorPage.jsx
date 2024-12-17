@@ -50,7 +50,8 @@ function CalculatorPage() {
         <div className="test">
           <div className="screen">{calc}</div>
           <div className="buttons">
-            <Stack className="first-row" direction="row" spacing={1}>
+            {/* Bruk grid */}
+            {/* <Stack className="first-row" direction="row" spacing={1}>
               <Button variant="contained" onClick={() => updateCalc("7")}>
                 7
               </Button>
@@ -109,7 +110,7 @@ function CalculatorPage() {
               >
                 CE
               </Button>
-            </Stack>
+            </Stack> */}
           </div>
         </div>
       </div>

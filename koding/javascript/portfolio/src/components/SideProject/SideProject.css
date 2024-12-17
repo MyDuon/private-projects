@@ -1,18 +1,48 @@
-.side-project-wrapper {
-  background-color: aqua;
-  margin: 1rem;
+:root {
+  --bg-color: aqua;
 }
-.side-project {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 3rem;
+  object-fit: cover;
+  object-position: center center;
 }
 
-.side-project > div {
-  flex: 1;
+.image-wrapper {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+}
+
+.test {
+  height: 100%;
+  width: 100%;
+}
+
+.test:hover .image {
+  opacity: 0.3;
+}
+
+/* Dette er for hover effekt */
+/* .test:hover .hei {
+  opacity: 1;
+}
+.hei {
+  opacity: 0;
+  position: relative;
+  left: 50%;
+  bottom: 50%;
+} */
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.side-project-wrapper {
+  background-color: var(--bg-color);
+  margin: 5rem;
 }
 .project-header {
   margin-top: 10rem;
