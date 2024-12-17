@@ -1,3 +1,6 @@
+.side-project-wrapper {
+  background-color: var(--font-color);
+}
 .project-header {
   /* font-size: 3rem; */
   color: #f7fbf5;
@@ -54,6 +57,9 @@
   width: 100%;
 }
 
-.side-project-wrapper {
-  background-color: var(--font-color);
+@media (max-width: 48rem) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

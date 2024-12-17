@@ -26,3 +26,18 @@
 .intro {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 48rem) {
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  .left-hero,
+  .right-hero {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
