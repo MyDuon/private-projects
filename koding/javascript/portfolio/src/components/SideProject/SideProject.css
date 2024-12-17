@@ -1,8 +1,5 @@
-:root {
-  /* --bg-color: #84da68; */
-  --bg-color: #1f241d;
-}
 .project-header {
+  /* font-size: 3rem; */
   color: #f7fbf5;
   text-align: center;
   padding-top: 2rem;
@@ -14,7 +11,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  gap: 3rem;
+  gap: 2rem;
   object-fit: cover;
   object-position: center center;
 }
@@ -29,30 +26,34 @@
   border-radius: 2rem;
 }
 
-.test {
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
 
-.test:hover .image {
+.link:hover .image {
   opacity: 0.3;
 }
 
 /* Dette er for hover effekt */
-/* .test:hover .hei {
+.link:hover .hidden-header {
   opacity: 1;
 }
-.hei {
+.hidden-header {
+  color: white;
   opacity: 0;
-  position: relative;
-  left: 50%;
-  bottom: 50%;
-} */
+  position: absolute;
+  /* left: 50%;
+  bottom: 50%; */
+}
 .image {
   height: 100%;
   width: 100%;
 }
 
 .side-project-wrapper {
-  background-color: var(--bg-color);
+  background-color: var(--font-color);
 }

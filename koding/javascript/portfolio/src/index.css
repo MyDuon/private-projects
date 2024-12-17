@@ -1,3 +1,9 @@
+:root {
+  --font-color: #0d150a;
+  --bg-color: #f7fbf5;
+  --primary: #67bf4b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,5 +12,5 @@
   /* border: 1px solid red; */
 }
 body {
-  background-color: #f7fbf5;
+  background-color: var(--bg-color);
 }

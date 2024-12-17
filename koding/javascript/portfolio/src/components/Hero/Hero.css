@@ -5,11 +5,15 @@
   margin-bottom: 3rem;
 }
 .left-hero {
-  width: 60%;
   display: flex;
+  width: 60%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+.intro,
+.description {
+  color: var(--font-color);
 }
 .right-hero {
   width: 40%;
@@ -19,10 +23,6 @@
   height: 100%;
   border-radius: 20%;
 }
-.intro,
-.description {
-  color: black;
-}
-.description {
-  margin-top: 1rem;
+.intro {
+  margin-bottom: 1rem;
 }

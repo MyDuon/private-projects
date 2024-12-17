@@ -1,5 +1,6 @@
 import "./Hero.css";
 import picture from "../../resources/hero_picture.jpg";
+
 function Hero() {
   return (
     <>

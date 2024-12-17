@@ -11,32 +11,44 @@ function SideProject() {
         <h1 className="project-header">Project</h1>
         <div className="grid-container">
           <div className="image-wrapper">
-            <Link className="test" to="/streaming">
+            <Link className="link" to="/streaming">
               <img className="image" src={streaming} alt="streaming picture" />
               {/* <div className="hei">hei</div> */}
+              <div className="hidden-header">
+                <h2>Movie App</h2>
+              </div>
             </Link>
           </div>
           <div className="image-wrapper">
-            <Link className="test" to="/calculator">
+            <Link className="link" to="/calculator">
               <img
                 className="image"
                 src={calculator}
                 alt="calculator picture"
               />
+              <div className="hidden-header">
+                <h2>Calculator</h2>
+              </div>
             </Link>
           </div>
           <div className="image-wrapper">
-            <Link className="test" to="todolist">
+            <Link className="link" to="todolist">
               <img className="image" src={todo} alt="todo-list picture" />
+              <div className="hidden-header">
+                <h2>Todo list</h2>
+              </div>
             </Link>
           </div>
           <div className="image-wrapper">
-            <Link className="test" to="tictactoe">
+            <Link className="link" to="tictactoe">
               <img
                 className="image"
                 src={tictactoe}
                 alt="tic-tac-toe picture"
               />
+              <div className="hidden-header">
+                <h2>Tic Tac Toe</h2>
+              </div>
             </Link>
           </div>
         </div>

@@ -1,21 +1,20 @@
 .header-wrapper {
   display: flex;
   padding: 1rem 10rem;
-  background: #67bf4b;
+  background: var(--primary);
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
 }
+.nav {
+  display: flex;
+  gap: 1rem;
+}
 .nav a,
-.link {
-  color: #0d150a;
+.home-button {
+  color: var(--font-color);
   text-decoration: none;
   position: relative;
   font-size: 1.2rem;
   font-weight: 500;
-}
-
-.nav {
-  display: flex;
-  gap: 1rem;
 }
