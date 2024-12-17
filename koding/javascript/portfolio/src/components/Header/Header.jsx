@@ -1,6 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router";
-import resume from "../../resources/CV_norsk_frontend.pdf";
+import resume from "../../resources/CV.pdf";
 
 function Header() {
   return (

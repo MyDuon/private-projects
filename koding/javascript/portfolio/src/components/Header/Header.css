@@ -1,17 +1,21 @@
 .header-wrapper {
-  width: 100%;
-  padding: 1rem 10rem;
-  background: #133e87;
   display: flex;
+  padding: 1rem 10rem;
+  background: #67bf4b;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .nav a,
 .link {
-  color: white;
+  color: #0d150a;
   text-decoration: none;
   position: relative;
   font-size: 1.2rem;
   font-weight: 500;
-  padding-left: 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
 }

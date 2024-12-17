@@ -11,8 +11,8 @@ function HomePage() {
     <>
       <Header />
       <Hero />
-      <Experience />
       <SideProject />
+      <Experience />
       <Contact />
       <Footer />
     </>
