@@ -52,8 +52,6 @@
   color: white;
   opacity: 0;
   position: absolute;
-  /* left: 50%;
-  bottom: 50%; */
 }
 
 @media (max-width: 48rem) {
