@@ -2,6 +2,7 @@
   --font-color: #0d150a;
   --bg-color: #f7fbf5;
   --primary: #67bf4b;
+  --secondary: #9fdd8b;
 }
 
 * {
@@ -9,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body {
   background-color: var(--bg-color);

@@ -1,3 +1,20 @@
-.contact {
+.contact-container {
+  margin-bottom: 3rem;
+}
+
+.contact-header {
   text-align: center;
+  margin-bottom: 2rem;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkedin-logo,
+.github-logo,
+.email-logo {
+  height: 1rem;
+  width: 1rem;
+  background-color: aqua;
 }

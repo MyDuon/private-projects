@@ -3,20 +3,17 @@
   gap: 1rem;
   padding: 1rem 10rem;
   background: var(--primary);
-  justify-content: center;
-  align-items: center;
   margin-bottom: 3rem;
 }
 .nav,
 .home-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  flex: 1;
 }
 .nav {
   display: flex;
-  gap: 1rem;
+  justify-content: end;
+  align-items: center;
+  gap: 3rem;
 }
 .nav a,
 .home-button {

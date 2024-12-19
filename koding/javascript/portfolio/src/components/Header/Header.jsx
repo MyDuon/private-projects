@@ -7,7 +7,7 @@ function Header() {
     <>
       <header className="header-wrapper">
         <Link className="home-button" to="/">
-          Lille My
+          <p>Lille My</p>
         </Link>
         <nav className="nav">
           <a href="/">About</a>

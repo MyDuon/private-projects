@@ -2,12 +2,13 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <div className="contact">
-        <h1>Contact</h1>
-        <p>Vennligst kontakt meg på epost eller på telefon</p>
-        <br />
-        <br />
-        <br />
+      <div className="contact-container">
+        <h1 className="contact-header">Contact me</h1>
+        <div className="contact-wrapper">
+          <div className="linkedin-logo"></div>
+          <div className="github-logo"></div>
+          <div className="email-logo"></div>
+        </div>
       </div>
     </>
   );

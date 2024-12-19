@@ -1,9 +1,9 @@
 .side-project-wrapper {
-  background-color: var(--font-color);
+  background-color: var(--secondary);
 }
 .project-header {
   /* font-size: 3rem; */
-  color: #f7fbf5;
+  color: var(--font-color);
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -26,6 +26,7 @@
 }
 
 .image {
+  width: 100%;
   border-radius: 2rem;
 }
 
@@ -33,12 +34,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  border-radius: 2rem;
   width: 100%;
+  background-color: black;
 }
 
 .link:hover .image {
-  opacity: 0.3;
+  opacity: 0.2;
+  transition: 0.3s ease 0s;
 }
 
 /* Dette er for hover effekt */
@@ -52,14 +55,11 @@
   /* left: 50%;
   bottom: 50%; */
 }
-.image {
-  height: 100%;
-  width: 100%;
-}
 
 @media (max-width: 48rem) {
   .grid-container {
     display: flex;
     flex-direction: column;
+    margin: 0rem 2rem 3rem;
   }
 }

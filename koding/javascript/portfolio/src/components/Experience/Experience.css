@@ -1,32 +1,28 @@
-.experience-wrapper {
-  /* background-color: #9fdd8b; */
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-bottom: 10rem;
-}
-.experience-header {
-  width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-.work {
+.experience-work-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 3rem;
 }
-.uio-wrapper,
-.munch-wrapper {
-  flex: 1;
-  border: 1px solid;
-  border-radius: 10%;
-  text-align: center;
-  background-color: #9fdd8b;
-  margin: 1rem;
+.education-wrapper,
+.experience-wrapper {
+  flex: 1 1 80px;
 }
-h2 {
-  margin: 1rem 1rem 0.5rem;
+.card-wrapper {
+  padding-left: 1rem;
+  border-left: 0.2rem solid var(--primary);
 }
-.margin {
-  margin: 2rem; /* storre margin forer til at uio teksten blir paa 3 linjer */
+.experience-header,
+.education-header {
+  margin-bottom: 1rem;
+  color: black;
+}
+.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid var(--secondary);
 }
