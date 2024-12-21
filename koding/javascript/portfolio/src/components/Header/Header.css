@@ -24,7 +24,7 @@
   font-weight: 500;
 }
 @media (max-width: 48rem) {
-  .header-wrapper {
+  .header-container {
     padding: 1rem 1rem;
   }
 }

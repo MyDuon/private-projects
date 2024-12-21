@@ -14,20 +14,20 @@
 .hero-intro,
 .hero-description {
   color: var(--font-color);
+  margin-bottom: 1rem;
 }
 .right-hero {
   width: 40%;
 }
 .hero-picture {
-  max-width: 100%;
+  width: 100%;
   border-radius: 20%;
 }
 .intro {
-  margin-bottom: 1rem;
 }
 
 @media (max-width: 48rem) {
-  .hero-wrapper {
+  .hero-container {
     flex-direction: column-reverse;
     margin-left: 2rem;
     margin-right: 2rem;
