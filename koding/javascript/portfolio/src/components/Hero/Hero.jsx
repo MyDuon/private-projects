@@ -4,10 +4,10 @@ import picture from "../../resources/hero_picture.jpg";
 function Hero() {
   return (
     <>
-      <div className="hero-wrapper">
+      <div className="hero-container">
         <div className="left-hero">
-          <h1 className="intro">Hei, Jeg er My</h1>
-          <h3 className="description">
+          <h1 className="hero-intro">Hei, Jeg er My</h1>
+          <h3 className="hero-description">
             Informatikk student som er på leting etter en utvikler jobb, enten
             fullstack, frontend eller backend
           </h3>

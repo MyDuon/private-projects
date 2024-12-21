@@ -7,10 +7,10 @@ import tictactoe from "../../resources/tic-tac-toe.png";
 function SideProject() {
   return (
     <>
-      <div className="side-project-wrapper">
+      <div className="side-project-container">
         <h1 className="project-header">Project</h1>
         <div className="grid-container">
-          <div className="image-wrapper">
+          <div className="image-container">
             <Link className="link" to="/streaming">
               <div className="hidden-header">
                 <h2>Movie App</h2>
@@ -19,7 +19,7 @@ function SideProject() {
               {/* <div className="hei">hei</div> */}
             </Link>
           </div>
-          <div className="image-wrapper">
+          <div className="image-container">
             <Link className="link" to="/calculator">
               <div className="hidden-header">
                 <h2>Calculator</h2>
@@ -31,7 +31,7 @@ function SideProject() {
               />
             </Link>
           </div>
-          <div className="image-wrapper">
+          <div className="image-container">
             <Link className="link" to="todolist">
               <div className="hidden-header">
                 <h2>Todo list</h2>
@@ -39,7 +39,7 @@ function SideProject() {
               <img className="image" src={todo} alt="todo-list picture" />
             </Link>
           </div>
-          <div className="image-wrapper">
+          <div className="image-container">
             <Link className="link" to="tictactoe">
               <div className="hidden-header">
                 <h2>Tic Tac Toe</h2>

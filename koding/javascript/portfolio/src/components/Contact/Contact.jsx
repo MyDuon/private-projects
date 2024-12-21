@@ -8,7 +8,7 @@ function Contact() {
     <>
       <div className="contact-container">
         <h1 className="contact-header">Contact me</h1>
-        <div className="contact-wrapper">
+        <div className="logo-container">
           <div className="linkedin-logo">
             <a href="https://www.linkedin.com/in/my-hoang-duong-a21861236/">
               <img className="linkedin" src={linkedin} alt="linkedin logo" />

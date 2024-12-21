@@ -1,4 +1,4 @@
-.hero-wrapper {
+.hero-container {
   display: flex;
   margin-left: 8rem;
   margin-right: 8rem;
@@ -11,8 +11,8 @@
   justify-content: center;
   align-items: flex-start;
 }
-.intro,
-.description {
+.hero-intro,
+.hero-description {
   color: var(--font-color);
 }
 .right-hero {

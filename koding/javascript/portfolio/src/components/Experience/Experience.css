@@ -8,11 +8,11 @@
   margin-right: 12rem;
   margin-bottom: 3rem;
 }
-.education-wrapper,
-.experience-wrapper {
+.education-container,
+.experience-container {
   flex: 1;
 }
-.card-wrapper {
+.card-container {
   /* legg til display: flex. og flex 1 paa kortene; */
   padding-left: 1rem;
   border-left: 0.2rem solid var(--primary);
@@ -27,6 +27,7 @@
   margin-bottom: 1rem;
   border: 0.1rem solid var(--secondary);
 }
+
 @media (max-width: 48rem) {
   .experience-work-container {
     flex-direction: column;

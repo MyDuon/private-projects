@@ -4,9 +4,9 @@ function Experience() {
   return (
     <>
       <div className="experience-work-container">
-        <div className="experience-wrapper">
+        <div className="experience-container">
           <h1 className="experience-header">Experience</h1>
-          <div className="card-wrapper">
+          <div className="card-container">
             <div className="card">
               <h2 className="job-company">Universitetet i Oslo</h2>
               <h3 className="job-title">Gruppelærer | 2022 - 2024</h3>
@@ -19,9 +19,9 @@ function Experience() {
             </div>
           </div>
         </div>
-        <div className="education-wrapper">
+        <div className="education-container">
           <h1 className="education-header">Education</h1>
-          <div className="card-wrapper">
+          <div className="card-container">
             <div className="card">
               <h2 className="education-location">Universitetet i Oslo</h2>
               <h3 className="degree-title">

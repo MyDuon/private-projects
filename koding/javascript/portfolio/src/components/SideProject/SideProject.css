@@ -1,4 +1,4 @@
-.side-project-wrapper {
+.side-project-container {
   background-color: var(--secondary);
 }
 .project-header {
@@ -19,7 +19,7 @@
   object-position: center center;
 }
 
-.image-wrapper {
+.image-container {
   display: flex;
   justify-content: center;
   align-items: center;

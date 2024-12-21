@@ -5,7 +5,7 @@ import resume from "../../resources/CV.pdf";
 function Header() {
   return (
     <>
-      <header className="header-wrapper">
+      <header className="header-container">
         <Link className="home-button" to="/">
           <p>Lille My</p>
         </Link>
