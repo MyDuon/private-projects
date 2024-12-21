@@ -3,11 +3,12 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <h1>Footer</h1>
-        <p>Boilerplate fra Vite. Bygget med React Router. Dette er en MVP</p>
-        <br />
-        <br />
-        <br />
+        <div className="footer-margin">
+          <h1 className="footer-header">Footer</h1>
+          <p className="footer-description">
+            Boilerplate fra Vite. Bygget med React Router. Dette er en MVP
+          </p>
+        </div>
       </div>
     </>
   );

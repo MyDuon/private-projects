@@ -1,3 +1,22 @@
 .footer {
   text-align: center;
+  background-color: var(--accent);
+  padding-top: 1rem;
+}
+.footer-header {
+  padding-bottom: 1rem;
+}
+.footer-description {
+  padding-bottom: 1rem;
+}
+.footer-margin {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+@media (max-width: 48rem) {
+  .footer-margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }

@@ -4,7 +4,7 @@
 
 .contact-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .contact-wrapper {
   display: flex;
@@ -14,7 +14,12 @@
 .linkedin-logo,
 .github-logo,
 .email-logo {
-  height: 3rem;
-  width: 3rem;
-  background-color: purple;
+  height: 4rem;
+  width: 4rem;
+  /* background-color: purple; */
+}
+.linkedin,
+.github,
+.email {
+  max-width: 100%;
 }

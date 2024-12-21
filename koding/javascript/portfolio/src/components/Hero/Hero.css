@@ -19,7 +19,7 @@
   width: 40%;
 }
 .hero-picture {
-  width: 100%;
+  max-width: 100%;
   border-radius: 20%;
 }
 .intro {
@@ -32,6 +32,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
+    gap: 1rem;
   }
   .left-hero,
   .right-hero {
