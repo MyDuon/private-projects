@@ -28,7 +28,6 @@ function App() {
       calculation.endsWith("/")
     ) {
       var test = calculation.slice(0, -1);
-      console.log(test);
       tmp = eval(test);
       setCalc(tmp);
       return;
@@ -48,65 +47,139 @@ function App() {
         <div className="calculator-margin-wrapper">
           <div className="number-field">{calc}</div>
           <div className="calculator-grid">
-            <button type="button" onClick={() => updateCalc("7")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("7")}
+            >
               7
             </button>
-            <button type="button" onClick={() => updateCalc("8")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("8")}
+            >
               8
             </button>
-            <button type="button" onClick={() => updateCalc("9")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("9")}
+            >
               9
             </button>
-            <button type="button">remove</button>
-            <button type="button" onClick={() => reset()}>
+            <button type="button" className="button">
+              remove
+            </button>
+            <button type="button" className="button" onClick={() => reset()}>
               CE
             </button>
 
-            <button type="button" onClick={() => updateCalc("4")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("4")}
+            >
               4
             </button>
-            <button type="button" onClick={() => updateCalc("5")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("5")}
+            >
               5
             </button>
-            <button type="button" onClick={() => updateCalc("6")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("6")}
+            >
               6
             </button>
-            <button type="button" onClick={() => updateCalc("-")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("-")}
+            >
               -
             </button>
-            <button type="button" onClick={() => updateCalc("*")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("*")}
+            >
               *
             </button>
 
-            <button type="button" onClick={() => updateCalc("1")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("1")}
+            >
               1
             </button>
-            <button type="button" onClick={() => updateCalc("2")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("2")}
+            >
               2
             </button>
-            <button type="button" onClick={() => updateCalc("3")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("3")}
+            >
               3
             </button>
-            <button type="button" onClick={() => updateCalc("/")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("/")}
+            >
               /
             </button>
-            <button type="button" onClick={() => updateCalc("+")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("+")}
+            >
               +
             </button>
 
-            <button type="button" onClick={() => updateCalc("0")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("0")}
+            >
               0
             </button>
-            <button type="button" onClick={() => updateCalc(".")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc(".")}
+            >
               .
             </button>
-            <button type="button" onClick={() => calculate(calc)}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => calculate(calc)}
+            >
               =
             </button>
-            <button type="button" onClick={() => updateCalc("(")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc("(")}
+            >
               (
             </button>
-            <button type="button" onClick={() => updateCalc(")")}>
+            <button
+              type="button"
+              className="button"
+              onClick={() => updateCalc(")")}
+            >
               )
             </button>
           </div>
