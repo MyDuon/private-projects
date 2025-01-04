@@ -1,9 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./TodoList.css";
 
+const getLocalItem = () => {
+  let list = localStorage.getItem("todoList");
+  if (list) {
+    return JSON.parse(list);
+  } else {
+    return;
+    [];
+  }
+};
 function TodoList() {
   const [task, setTask] = useState("");
-  const [todoList, setTodolist] = useState([]);
+  const [todoList, setTodolist] = useState(getLocalItem);
+
+  //   // Load TODOs from local storage on app startup
+  //   useEffect(() => {
+  //     const storedTodos = JSON.parse(localStorage.getItem("todoList"));
+  //     if (storedTodos) {
+  //       setTodolist(storedTodos);
+  //     }
+  //   }, []);
+
+  // Update local storage whenever TODOs change
+  useEffect(() => {
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+  }, [todoList]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
