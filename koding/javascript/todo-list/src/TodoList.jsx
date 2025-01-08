@@ -38,34 +38,32 @@ function TodoList() {
 
   return (
     <>
-      <h1 className="todoList-header">To-Do-List</h1>
-      <div className="to-do-list">
-        <form className="todoTask" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            className="todo-input"
-            placeholder="What is the task today?"
-            onChange={(e) => setTask(e.target.value)}
-          />
-          <button type="submit" className="add-button">
-            Add
-          </button>
-        </form>
-        <div className="todoList">
-          <ul>
-            {todoList.map((task, index) => (
-              <li key={index}>
-                <span className="text">{task}</span>
-                <button
-                  className="delete-button"
-                  onClick={() => RemoveTask(index)}
-                >
-                  Delete
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <h1 className="todo-header">To-Do-List</h1>
+      <form className="todo-form" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          className="todo-input"
+          placeholder="What is the task today?"
+          onChange={(e) => setTask(e.target.value)}
+        />
+        <button type="submit" className="add-button">
+          Add
+        </button>
+      </form>
+      <div className="todo-task">
+        <ul>
+          {todoList.map((task, index) => (
+            <li key={index}>
+              <h3 className="task-description">{task}</h3>
+              <button
+                className="delete-button"
+                onClick={() => RemoveTask(index)}
+              >
+                Delete
+              </button>
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );

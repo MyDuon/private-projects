@@ -40,6 +40,15 @@ function App() {
     setCalc("0");
   };
 
+  const remove = (calc) => {
+    if (calc.length > 1) {
+      var tmp = calc.slice(0, -1);
+      setCalc(tmp);
+    } else {
+      reset();
+    }
+  };
+
   return (
     <>
       <div className="calculator-container">
@@ -68,8 +77,12 @@ function App() {
             >
               9
             </button>
-            <button type="button" className="button">
-              remove
+            <button
+              type="button"
+              className="button"
+              onClick={() => remove(calc)}
+            >
+              DEL
             </button>
             <button type="button" className="button" onClick={() => reset()}>
               CE
