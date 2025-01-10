@@ -1,6 +1,7 @@
 .todo-header {
   text-align: center;
   font-size: 4rem;
+  margin-bottom: 2rem;
 }
 .todo-form,
 .todo-task {
