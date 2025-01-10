@@ -39,7 +39,7 @@
 .delete-button:hover {
   background-color: rgb(255, 0, 0);
 }
-li {
+.task-container {
   font-size: 1.6rem;
   background-color: hsl(0, 0%, 97%);
   margin-bottom: 1rem;

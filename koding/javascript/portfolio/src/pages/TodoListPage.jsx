@@ -54,7 +54,7 @@ function TodoListPage() {
       <div className="todo-task">
         <ul>
           {todoList.map((task, index) => (
-            <li key={index}>
+            <li className="task-container" key={index}>
               <h3 className="task-description">{task}</h3>
               <button
                 className="delete-button"
