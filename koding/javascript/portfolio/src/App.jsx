@@ -1,9 +1,8 @@
 import HomePage from "./pages/HomePage";
 import CalculatorPage from "./pages/CalculatorPage";
-import StreamingPage from "./pages/StreamingPage";
+import MovieAppPage from "./pages/MovieAppPage";
 import TicTacToePage from "./pages/TicTacToePage";
 import TodoListPage from "./pages/TodoListPage";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
           <Route index element={<HomePage />} />{" "}
           {/*Kan legge til errorelement attributt senere */}
           <Route path="/calculator" element={<CalculatorPage />} />
-          <Route path="/streaming" element={<StreamingPage />} />
+          <Route path="/streaming" element={<MovieAppPage />} />
           <Route path="/tictactoe" element={<TicTacToePage />} />
           <Route path="/todolist" element={<TodoListPage />} />
         </Routes>
