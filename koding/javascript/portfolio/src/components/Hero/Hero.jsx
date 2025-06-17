@@ -8,7 +8,7 @@ function Hero() {
         <div className="left-hero">
           <h1 className="hero-intro">Hei, Jeg er My</h1>
           <h3 className="hero-description">
-            Informatikk student som er på leting etter en utvikler jobb, enten
+            nyutdannet utvikler som er på leting etter en utvikler jobb, enten
             fullstack, frontend eller backend
           </h3>
         </div>
