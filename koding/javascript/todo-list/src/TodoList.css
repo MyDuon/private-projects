@@ -41,6 +41,12 @@
   border-radius: 0.5rem;
   padding: 1rem;
 }
+.edit-button {
+  font-size: 1.6rem;
+  background-color: rgb(57, 57, 57);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
 .delete-button:hover {
   background-color: rgb(255, 0, 0);
 }

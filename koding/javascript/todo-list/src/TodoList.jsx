@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./TodoList.css";
 
-const getLocalItem = () => {
+function getLocalItem() {
   let list = localStorage.getItem("todoList");
   if (list) {
     return JSON.parse(list);
@@ -18,20 +18,25 @@ function TodoList() {
     localStorage.setItem("todoList", JSON.stringify(todoList));
   }, [todoList]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    e.target.reset();
-    AddTask();
+  // add task to list
+  const handleSubmit = (event) => {
+    event.preventDefault(); // prevent page from reloading after sending in form
+    event.target.reset(); // reset the target
+    addTask(); // add task
   };
 
-  function AddTask() {
-    if (task.trim() !== "") {
-      setTodolist((t) => [...t, task]);
+  function addTask() {
+    if (task.trim() != "") {
+      setTodolist((currentTask) => [...currentTask, task]);
       setTask("");
     }
   }
 
-  function RemoveTask(index) {
+  function editTask(index) {
+
+  }
+
+  function removeTask(index) {
     const updatedTasks = todoList.filter((_, i) => i !== index);
     setTodolist(updatedTasks);
   }
@@ -56,8 +61,14 @@ function TodoList() {
             <li key={index}>
               <h3 className="task-description">{task}</h3>
               <button
+                className="edit-button"
+                onClick={() => editTask(index)}
+              >
+                Edit
+              </button>
+              <button
                 className="delete-button"
-                onClick={() => RemoveTask(index)}
+                onClick={() => removeTask(index)}
               >
                 Delete
               </button>
