@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./TodoList.css";
 
 function getLocalItem() {
@@ -9,9 +9,10 @@ function getLocalItem() {
     return [];
   }
 };
+
 function TodoList() {
   const [task, setTask] = useState("");
-  const [todoList, setTodolist] = useState(getLocalItem);
+  const [todoList, setTodoList] = useState(getLocalItem);
 
   // Update local storage whenever TODOs change
   useEffect(() => {
@@ -27,7 +28,7 @@ function TodoList() {
 
   function addTask() {
     if (task.trim() != "") {
-      setTodolist((currentTask) => [...currentTask, task]);
+      setTodoList((currentTask) => [...currentTask, task]);
       setTask("");
     }
   }
@@ -38,7 +39,7 @@ function TodoList() {
 
   function removeTask(index) {
     const updatedTasks = todoList.filter((_, i) => i !== index);
-    setTodolist(updatedTasks);
+    setTodoList(updatedTasks);
   }
 
   return (
@@ -49,7 +50,7 @@ function TodoList() {
           type="text"
           className="todo-input"
           placeholder="What is the task today?"
-          onChange={(e) => setTask(e.target.value)}
+          onChange={(event) => setTask(event.target.value)}
         />
         <button type="submit" className="add-button">
           Add
@@ -79,4 +80,5 @@ function TodoList() {
     </>
   );
 }
+
 export default TodoList;
