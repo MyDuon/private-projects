@@ -45,10 +45,17 @@ function Experience() {
             <div className="card">
               <h2 className="education-location">Universitetet i Oslo</h2>
               <h3 className="degree-title">
+                Master i informatikk: design, bruk og interaksjon
+              </h3>
+              <p>Studerer master fra august 2025 til nå</p>
+            </div>
+            <div className="card">
+              <h2 className="education-location">Universitetet i Oslo</h2>
+              <h3 className="degree-title">
                 Bachelor i informatikk: design, bruk og interaksjon
               </h3>
               <p>
-                Utdannet utvikler med tverrfaglig fordypning innen
+                Utviklerutdanning med tverrfaglig fordypning innen
                 samfunnsøkonomi med utveksling til City University Of Hong Kong
               </p>
             </div>
