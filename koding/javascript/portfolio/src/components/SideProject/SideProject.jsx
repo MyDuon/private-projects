@@ -4,6 +4,7 @@ import streaming from "../../resources/movie-app.png";
 import calculator from "../../resources/calculator.png";
 import todo from "../../resources/todo-list.png";
 import tictactoe from "../../resources/tic-tac-toe.png";
+import thinkboard from "../../resources/thinkboard.png";
 function SideProject() {
   return (
     <>
@@ -50,6 +51,21 @@ function SideProject() {
                 alt="tic-tac-toe picture"
               />
             </Link>
+          </div>
+          <div className="image-container">
+            <a
+              className="link"
+              href="https://mern-thinkboard-l60u.onrender.com/"
+            >
+              <div className="hidden-header">
+                <h2>Thinkboard</h2>
+              </div>
+              <img
+                className="image"
+                src={thinkboard}
+                alt="thinkboard picture"
+              />
+            </a>
           </div>
         </div>
       </div>
