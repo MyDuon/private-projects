@@ -10,12 +10,12 @@ function Contact() {
         <h1 className="contact-header">Contact me</h1>
         <div className="logo-container">
           <div className="linkedin-logo">
-            <a href="https://www.linkedin.com/in/my-hoang-duong-a21861236/">
+            <a href="https://www.linkedin.com/in/my-hoang-duong/">
               <img className="linkedin" src={linkedin} alt="linkedin logo" />
             </a>
           </div>
           <div className="github-logo">
-            <a href="https://github.com/MyDuon/private-projects">
+            <a href="https://github.com/MyDuon">
               <img className="github" src={github} alt="github logo" />
             </a>
           </div>
