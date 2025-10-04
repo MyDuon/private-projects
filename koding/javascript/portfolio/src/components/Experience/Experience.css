@@ -28,6 +28,10 @@
   border: 0.1rem solid var(--secondary);
 }
 
+.experience-list-container {
+  list-style: none;
+}
+
 @media (max-width: 48rem) {
   .experience-work-container {
     flex-direction: column;
