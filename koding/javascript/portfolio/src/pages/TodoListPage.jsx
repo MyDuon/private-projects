@@ -1,6 +1,7 @@
 import Header from "../components/Header/Header";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./TodoListPage.css";
+import ProjectDescription from "../components/ProjectDescription/ProjectDescription";
 
 const getLocalItem = () => {
   let list = localStorage.getItem("todoList");
@@ -39,6 +40,15 @@ function TodoListPage() {
   return (
     <>
       <Header />
+      <ProjectDescription
+        description={
+          "Beskrivelse: Dette er det første prosjektet jeg har lagd. Det er en todo-liste der svaret blir lagret i local storage"
+        }
+        goal={"Mål: Lære meg react og bruke local storage."}
+        todo={
+          "TODO: Fikse på designet og gjøre de slik at man kan endre på task-ene."
+        }
+      />
       <h1 className="todo-header">To-Do-List</h1>
       <form className="todo-form" onSubmit={handleSubmit}>
         <input
