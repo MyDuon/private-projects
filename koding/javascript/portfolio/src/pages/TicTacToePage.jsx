@@ -1,7 +1,9 @@
 import Header from "../components/Header/Header";
 import "./TicTacToePage.css";
 import { useState } from "react";
+import ProjectDescription from "../components/ProjectDescription/ProjectDescription";
 
+// eslint-disable-next-line react/prop-types
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
@@ -62,6 +64,15 @@ function TicTacToePage() {
   return (
     <>
       <Header />
+      <ProjectDescription
+        description={
+          "Beskrivelse: Lagde en 3-på-rad eller tripp-trapp-tresko ved å følge tutorial fra React sin offisielle side"
+        }
+        goal={"Målet: Lære mer om React."}
+        todo={
+          "TODO: Gjøre det slik at man kan spille mot en maskin og kanskje gjøre designet mer eget."
+        }
+      />
       <div className="tictactoe-container">
         <h1 className="tictactoe-header">Tic Tac Toe</h1>
         <div className="tictactoe-wrapper">

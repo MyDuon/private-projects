@@ -4,7 +4,7 @@ import "./ProjectDescription.css";
 function ProjectDescription({ description, goal, todo }) {
   return (
     <>
-      <ul>
+      <ul className="ProjectDescriptionListContainer">
         <li>{description}</li>
         <li>{goal}</li>
         <li>{todo}</li>
