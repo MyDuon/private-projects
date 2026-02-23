@@ -1,6 +1,8 @@
 import Header from "../components/Header/Header";
 import "./MovieAppPage.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import ProjectDescription from "../components/ProjectDescription/ProjectDescription";
+
 function MovieAppPage() {
   const [movieList, setMovieList] = useState([]);
 
@@ -25,6 +27,13 @@ function MovieAppPage() {
   return (
     <>
       <Header />
+      <ProjectDescription
+        description={
+          "Beskrivelse: Ideen var å lage en film app der man kan filtrere filmer og serier etter sjanger, og se detaljer om dem. Brukte The movie database API for dette prosjektet."
+        }
+        goal={"Mål: Lære å bruke API-er og hente data fra dem."}
+        todo={"TODO: Legge til flere funksjoner og design og sikkerhet."}
+      />
       <h1>Streaming</h1>
       <div className="content-wrapper">
         <h2>Top rated movies</h2>

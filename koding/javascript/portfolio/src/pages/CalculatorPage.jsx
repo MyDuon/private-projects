@@ -1,6 +1,7 @@
 import Header from "../components/Header/Header";
 import { useState } from "react";
 import "./CalculatorPage.css";
+import ProjectDescription from "../components/ProjectDescription/ProjectDescription";
 
 function CalculatorPage() {
   const [calc, setCalc] = useState("0");
@@ -52,6 +53,15 @@ function CalculatorPage() {
   return (
     <>
       <Header />
+      <ProjectDescription
+        description={
+          "Beskrivelse: Dette er et prosjekt jeg lagde fra scratch ved å bare bruke dokumentasjon og google uten bruk av AI."
+        }
+        goal={
+          "Mål: lage noe fra scratch og bli flinkere til å bruke dokumentasjon."
+        }
+        todo={"TODO: Fikse på designet og gjøre kalkulatoren responsiv."}
+      />
       <div className="calculator-container">
         <h1 className="calculator-header">Calculator</h1>
         <div className="calculator-margin-wrapper">
